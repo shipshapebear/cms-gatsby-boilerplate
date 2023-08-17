@@ -1,15 +1,15 @@
 import * as React from "react"
 import { Link, type HeadFC, type PageProps } from "gatsby"
-import { Button, buttonVariants } from "@/components/button"
+import { Button, buttonVariants } from "@/components/ui/button"
 import { cn } from "@/lib/utils"
+import Layout from "@/components/core/layout"
 
 
 const IndexPage: React.FC<PageProps> = () => {
   return (
-    <main>
-      <Button variant="default">Test Button</Button>
-      <Link to="/home" className={cn(buttonVariants({ variant: "destructive" }))}>Test</Link>
-    </main>
+    <Layout>
+      Hello World
+    </Layout>
   )
 }
 
