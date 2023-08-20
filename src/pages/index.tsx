@@ -8,7 +8,7 @@ import Layout from "@/components/core/layout"
 const IndexPage: React.FC<PageProps> = () => {
   return (
     <Layout>
-      Hello World
+      Hello World s s
     </Layout>
   )
 }
