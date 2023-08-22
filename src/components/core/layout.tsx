@@ -10,8 +10,8 @@ const Layout = ({ children }: Layout) => {
     return (
         <>
             <Slice alias='header' />
-            <main className='min-h-screen flex-1'>
-                <div className="max-w-screen-xl mx-auto">
+            <main className='min-h-screen'>
+                <div className="max-w-screen-xl mx-auto px-4 h-full">
                     {children}
                 </div>
             </main>
