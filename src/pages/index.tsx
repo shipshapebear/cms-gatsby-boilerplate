@@ -8,6 +8,7 @@ const IndexPage: React.FC<PageProps> = () => {
   return <Layout>Hello World</Layout>;
 };
 
+
 export default IndexPage;
 
 export const Head: HeadFC = () => <title>Home Page</title>;
